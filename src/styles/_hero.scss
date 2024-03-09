@@ -1,0 +1,89 @@
+@use 'variaveis';;
+
+.hero {
+    display: flex;
+    padding: 5.6vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(../images/SENHOR_DOS_ANEIS.jpg);
+
+    @media (max-width: 768px) {
+        padding-top: calc(50vw + 25px);
+        margin-top: -150px;
+        background-image: url(../images/background_hero_mobile2.jpg);
+        background-position: center;
+    }
+
+    &__content {
+        display: flex;
+        max-width: 640px;
+        padding-top: 60px;
+        align-items: center;
+
+        @media (max-width:768px) {
+            padding: 0;
+        }
+
+        &__branding {
+            margin: 0 auto 38px;
+
+            @media (max-width: 768px) {
+                max-width: 280px;
+            }
+            
+            .logo {
+                display:flex;
+                padding-bottom: 48px;
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+            }
+
+            h3{
+                font-family: Tolkien, sans-serif;
+                padding-bottom: 40px;
+                padding-left: 10px;
+            }
+
+        }
+        
+        &__links {
+            padding: 0;
+
+            &__text {
+                padding-left: 10px;
+                padding-bottom: 50px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+            }
+
+            &__item {
+                display: inline-flex;
+                width: calc(50% - 12px);
+
+                @media (max-width: 768px) {
+                    display: block;
+                    padding-top: 20px;
+                    width: 100%;
+                }
+
+                .button {
+                    @media (max-width: 768px) {
+                        font-size: 20px;
+                    }
+                }
+
+                .icon {
+                    width: 20%;
+                    padding-left: 10px;
+                    padding-bottom: 0;
+                }
+
+                .icon__streaming {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

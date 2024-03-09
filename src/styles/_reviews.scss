@@ -1,0 +1,91 @@
+@use 'variaveis';
+
+.reviews {
+    padding: 5.6vw;
+
+    @media (max-width: 768px) {
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    &__content {
+        margin-inline: 1.75rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            margin-inline: 2.75rem;
+        }
+    }
+
+    &__list {
+        height: 60vh;
+        margin-top: 50px;
+
+        &__item {
+            background-image: url(../../src/images/background_test.jpg);
+            background-size: cover;
+            text-align: center;
+            padding: 60px 44px 44px;
+            max-width: 400px;
+            border-radius: 1.25rem;
+            margin-inline: 1.75rem;
+
+            @media (max-width: 768px) {
+                padding: 1rem;
+                max-width: 257px;
+            }
+
+            
+            p {
+                font-family: roboto;
+            }
+
+            .name {
+                font-size: 20px;
+                text-transform: uppercase;
+                margin: 20px 0;
+            }
+
+            .perfil {
+                border-radius: 50%;
+            }
+
+            &__stars {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: initial;
+        height: initial;
+        font-size: 3rem;
+        color: variaveis.$corDoTitulo;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .swiper-button-prev {
+        left: 0;
+    }
+
+    .swiper-button-next {
+        right: 0;
+    }
+
+    .swiper-pagination {
+        @media(max-width: 768px) {
+            position: inherit;
+            bottom: 6px;
+        }
+    }
+}

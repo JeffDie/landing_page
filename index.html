@@ -4,9 +4,294 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="./assets/lib/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
-    <h1>Olá</h1>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img class="logo" src="./dist/images/The_Lord_of_the_Rings_logo.png" alt="">
+                <h3 class="text--big">Prepare for this adventure</h3>
+                <ul class="hero__content__links">
+                    <p class="text hero__content__links__text"><b>The Lord of the Rings</b> is a trilogy of epic fantasy adventure films directed by Peter Jackson, based on the novel The Lord of the Rings by British author J. R. R. Tolkien. </p>
+                    <li class="hero__content__links__item">
+                        <a href="#" class="links button">
+                            Watch on
+                            <img class="icon__streaming" src="./dist/images/icon/hbomax2.png" alt="">
+                        </a>
+                    </li>
+                    <li class="hero__content__links__item">
+                        <a href="#" class="links button">
+                            Watch on
+                            <img class="icon__streaming" src="./dist/images/icon/amazon_prime.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="trilogy">
+        <h2 class="title--big">
+            Trilogy
+        </h2>
+        <div>
+            <ul class="trilogy__list">
+                <li class="trilogy__list__item">
+                    <img src="./dist/images/trilogy/lotr-the-fellowship-of-the-ring.jpg" alt="">
+                    <strong class="text--small">IMDb 8.9 - 2001 - 2h 58min</strong>
+                    <p class="text">A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</p>
+                    <button class="button button--secundary">
+                        Watch now
+                        <img src="./dist/images/icon/play-fill.svg" alt="" class="icon">
+                    </button>
+                </li>
+            </ul>
+            <ul class="trilogy__list">
+                <li class="trilogy__list__item">
+                    <img src="./dist/images/trilogy/lotr-tge-two-towers.jpg" alt="">
+                    <strong class="text--small">
+                        IMDb 8.8 - 2002 - 2h 59min
+                    </strong>
+                    <p class="text">While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.</p>
+                    <button class="button button--secundary">
+                        Watch now
+                        <img src="./dist/images/icon/play-fill.svg" alt="" class="icon">
+                    </button>
+                </li>
+            </ul>
+            <ul class="trilogy__list">
+                <li class="trilogy__list__item">
+                    <img src="./dist/images/trilogy/lotr-the-return-of-the-king.jpg" alt="">
+                    <strong class="text--small">IMDb 9.0 - 2003 - 3h 21min</strong>
+                    <p class="text">Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</p>
+                    <button class="button button--secundary">
+                        Watch now
+                        <img src="./dist/images/icon/play-fill.svg" alt="" class="icon">
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="reviews">
+        <h2 class="title--big">
+            ReviewS
+        </h2>
+        <div class="swiper">
+            <div class="reviews__content">
+                <ul class="reviews__list swiper-wrapper">
+                    <li class="reviews__list__item swiper-slide">
+                        <img src="https://via.placeholder.com/100x100" alt="" class="perfil">
+                        <p class="name">Full Name</p>
+                        <div class="reviews__list__item__stars">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ducimus, fuga et earum, soluta incidunt molestias eaque nihil voluptatibus quia, animi ex laboriosam laborum alias dolorem eligendi magni. Mollitia, autem?
+                        </p>
+                    </li>
+                    <li class="reviews__list__item swiper-slide">
+                        <img src="https://via.placeholder.com/100x100" alt="" class="perfil">
+                        <p class="name">Full Name</p>
+                        <div class="reviews__list__item__stars">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star.svg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ducimus, fuga et earum, soluta incidunt molestias eaque nihil voluptatibus quia, animi ex laboriosam laborum alias dolorem eligendi magni. Mollitia, autem?
+                        </p>
+                    </li>
+                    <li class="reviews__list__item swiper-slide">
+                        <img src="https://via.placeholder.com/100x100" alt="" class="perfil">
+                        <p class="name">Full Name</p>
+                        <div class="reviews__list__item__stars">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ducimus, fuga et earum, soluta incidunt molestias eaque nihil voluptatibus quia, animi ex laboriosam laborum alias dolorem eligendi magni. Mollitia, autem?
+                        </p>
+                    </li>
+                    <li class="reviews__list__item swiper-slide">
+                        <img src="https://via.placeholder.com/100x100" alt="" class="perfil">
+                        <p class="name">Full Name</p>
+                        <div class="reviews__list__item__stars">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ducimus, fuga et earum, soluta incidunt molestias eaque nihil voluptatibus quia, animi ex laboriosam laborum alias dolorem eligendi magni. Mollitia, autem?
+                        </p>
+                    </li>
+                    <li class="reviews__list__item swiper-slide">
+                        <img src="https://via.placeholder.com/100x100" alt="" class="perfil">
+                        <p class="name">Full Name</p>
+                        <div class="reviews__list__item__stars">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ducimus, fuga et earum, soluta incidunt molestias eaque nihil voluptatibus quia, animi ex laboriosam laborum alias dolorem eligendi magni. Mollitia, autem?
+                        </p>
+                    </li>
+                    <li class="reviews__list__item swiper-slide">
+                        <img src="https://via.placeholder.com/100x100" alt="" class="perfil">
+                        <p class="name">Full Name</p>
+                        <div class="reviews__list__item__stars">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star.svg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ducimus, fuga et earum, soluta incidunt molestias eaque nihil voluptatibus quia, animi ex laboriosam laborum alias dolorem eligendi magni. Mollitia, autem?
+                        </p>
+                    </li>
+                    <li class="reviews__list__item swiper-slide">
+                        <img src="https://via.placeholder.com/100x100" alt="" class="perfil">
+                        <p class="name">Full Name</p>
+                        <div class="reviews__list__item__stars">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star.svg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ducimus, fuga et earum, soluta incidunt molestias eaque nihil voluptatibus quia, animi ex laboriosam laborum alias dolorem eligendi magni. Mollitia, autem?
+                        </p>
+                    </li>
+                    <li class="reviews__list__item swiper-slide">
+                        <img src="https://via.placeholder.com/100x100" alt="" class="perfil">
+                        <p class="name">Full Name</p>
+                        <div class="reviews__list__item__stars">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star-fill.svg" alt="">
+                            <img src="./dist/images/icon/star.svg" alt="">
+                            <img src="./dist/images/icon/star.svg" alt="">
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ducimus, fuga et earum, soluta incidunt molestias eaque nihil voluptatibus quia, animi ex laboriosam laborum alias dolorem eligendi magni. Mollitia, autem?
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!--Navigation Buttons-->
+            <div class="swiper-button-prev">
+                <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="swiper-button-next">
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <!--Pagination-->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="cast">
+        <h2 class="title--big"> Top CaSt</h2>
+            <ul class="cast__list">
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Elijah_Wood.jpg" alt="">
+                    <p class="text">Elijah Wood</p>
+                    <p class="text charactersName">Frodo Baggins</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Viggo_Mortensen.jpg" alt="">
+                    <p class="text">Viggo Mortensen</p>
+                    <p class="text charactersName">Aragorn</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Sean_Astin.jpg" alt="">
+                    <p class="text">Sean Astin</p>
+                    <p class="text charactersName">Samwise Gamgee</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Dominic_Monaghan.jpg" alt="">
+                    <p class="text">Dominic Monaghan</p>
+                    <p class="text charactersName">Meriadoc</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Orlando_Bloom.jpg" alt="">
+                    <p class="text">Orlando Bloom</p>
+                    <p class="text charactersName">Legolas</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Billy_Boyd.jpg" alt="">
+                    <p class="text">Billy Boyd</p>
+                    <p class="text charactersName">Peregrim Took</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Ian_Holm.jpg" alt="">
+                    <p class="text">Ian Holm</p>
+                    <p class="text charactersName">Bilbo Baggins</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Ian_McKellen.jpg" alt="">
+                    <p class="text">Ian McKellen</p>
+                    <p class="text charactersName">Gandalf</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Sean_Bean.jpg" alt="">
+                    <p class="text">Sean Bean</p>
+                    <p class="text charactersName">Boromir</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Andy_Serkis.jpg" alt="">
+                    <p class="text">Andy Serkis</p>
+                    <p class="text charactersName">Gollum</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/John_Rhys-Davies.jpg" alt="">
+                    <p class="text">John Rhys-Davies</p>
+                    <p class="text charactersName">Gimli</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Liv_Tyler.jpg" alt="">
+                    <p class="text">Liv Tyler</p>
+                    <p class="text charactersName">Arwen</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Cate_Blanchett.jpg" alt="">
+                    <p class="text">Cate Blanchett</p>
+                    <p class="text charactersName">Galadriel</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Hugo_Weaving.jpg" alt="">
+                    <p class="text">Hugo Weaving</p>
+                    <p class="text charactersName">Elrond</p>
+                </li>
+                <li class="cast__list__item">
+                    <img class="actor" src="./dist/images/cast/Christopher_Lee.jpg" alt="">
+                    <p class="text">Christopher Lee</p>
+                    <p class="text charactersName">Saruman</p>
+                </li>
+            </ul>
+    </section>
+    <script src="./assets/lib/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
